@@ -1,0 +1,170 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>xxxxxxxxxxxxxxx</title>
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+    <style>
+        body{
+            margin: 0;
+            height: 100vh;
+            background-color: #eee;
+        }
+        /* *{border: 1px solid black;
+        }*/
+        .yinying{
+            box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+        }
+        .flex{
+            display: flex;
+        }
+        .baise{
+            background-color: white;
+        }
+        .flex1{
+            flex: 1;
+        }
+        .column{
+            flex-direction: column;
+        }
+        .mg8{
+            margin: 8px;
+        }
+        .mgr8{
+            margin-rigt: 8px;
+        }
+        .mgt8{
+            margin-top: 8px;
+        }
+        .daohang{
+            padding: 10px 20px;
+            border-bottom: 1px solid rgb(210, 209, 209);
+            font-size: 15px;
+            color: #999;
+        }
+        .www {
+            width: 100px;
+            border-radius:50%;
+        }
+        .tubiao{
+            width: 70px;height: 70px;
+        }
+        .jvzhong{
+            padding:10px;
+        }
+        /* 当屏幕宽度小于600px时要改变的css*/
+        @media(max-width: 600px) {
+            .ceBian{
+                display: none;
+            }
+        }
+        #center{
+            text-align: centr;
+        }
+        .tu{
+            width: 300px;
+            height: 300px;
+            margin-right: 20px;
+            float: left;
+            border-radius: 50%;
+        }
+        .xiaotu{
+            width: 46px;
+            height: 46px;
+            margin-right: 20px;
+            float: left;
+            border-radius: 50%;
+    </style>
+</head>
+<body class="flex">
+    <!--左边区栏-->
+    <div style="width: 200px;z-index: 2;" class="ceBian baise yinying">
+        <!--头像栏-->
+        <div style="padding: 10px;align-items: center;justify-content: center;border-bottom: 1px solid rgb(133, 133, 133);"
+         class="flex">
+            <img src='https://tse4-mm.cn.bing.net/th/id/OIP-C.qTA-D_qvdbU4IQkZgKxE4gHaHa?w=189&h=189&c=7&r=0&o=5&pid=1.7'
+             width="60px"
+             hight="60px"
+             alt="无法显示" class="www"
+            >
+            <div style="margin-left: 10px;">哈哈</div>
+        </div>
+        <!--导航栏-->
+        <div class="flex1" >
+            <div class="daohang xiaotu" style="background: aqua;text-align: center;font-size: 30px;"><img src="http://wldss.cn/BCnavigation/res/ic_home.png"
+                width="60px" hight="60px"></div>
+            <div class="daohang">暂无</div>
+            <div class="daohang">暂无</div>
+            <div class="daohang">暂无</div>
+        </div>
+    </div>
+    <!--主区域-->
+    <div class="flex flex1 column">
+        <!--头部栏-->
+        <div style="height: 80px;z-index: 1;" class="baise">
+            <h1 style="font-family: Lobster;display: flex; justify-content:center;">好用网站推荐地</h1>
+        </div>
+        <!--内容区-->
+        <div style="overflow: auto" class="flex flex1">
+            <!--左区-->
+            <div style="flex: 3" class="flex column mg8 yinying">
+                <!--数据区-->
+                <div class="flex">
+                    <!--数据块-->
+                    <div style="height: 150px;" class="flex1 baise mgr8 yinying" style="background-color:rgb(66, 121, 247);justify-content:center;">
+                        <a href="https://space.bilibili.com/34786453/?spm_id_from=333.999.0.0">
+                            <img class="tubiao jvzhong" src="https://i1.hdslb.com/bfs/face/f950cf04a2bb4b8feb3cc594f283c7411931c516.jpg@240w_240h_1c_1s.webp">
+                        </a>
+                        <h5>康文昌</h5>
+                    </div>
+                    <div style="height: 150px;" class="flex1 baise mgr8 yinying">
+                        <img class="tubiao jvzhong" src="http://www.icosky.com/icon/ico/Object/Rubiks%20Cube/001.ico">
+                        <h5>开发中</h5>
+                    </div>
+                    <div style="height: 150px;" class="flex1 baise mgr8 yinying" ></div>
+                    <div style="height: 150px;" class="flex1 baise mgr8 yinying" ></div>
+                </div>
+                <!--列表区-->
+                <div class="flex column">
+                    <!--列表项-->
+                    <div style="height: 190px" class="baise mgt8 yinying">
+                        <a href="https://www.bilibili.com/?spm_id_from=333.999.b_696e7465726e6174696f6e616c486561646572.1">
+                            <img style="display:flex;justify-content: flex-end;padding: 10px;width: 80px;" src="http://img03.sogoucdn.com/v2/thumb/resize/w/140/h/140?appid=100520147&url=http%3A%2F%2Fpp.myapp.com%2Fma_icon%2F0%2Ficon_73622_1662542225%2F256">
+                        </a>
+                        <h3>
+                            哔哩哔哩
+                        </h3>
+                        <h4>————无广告内容多多视频网站</h4>
+                    </div>
+                    <div style="height: 190px" class="baise mgt8 yinying">
+                        <a href="https://www.iconfont.cn/">
+                            <img style="display:flex;justify-content: flex-end;padding: 10px;width: 300px" src="https://img.alicdn.com/imgextra/i2/O1CN01FF1t1g1Q3PDWpSm4b_!!6000000001920-55-tps-508-135.svg">
+                        </a>
+                        <h3>
+                            iconfont-阿里巴巴矢量图标库
+                        </h3>
+                        <h4>
+                            ————图标内容非常丰富资源网站
+                        </h4>
+                    </div>
+                    <div style="height: 160px" class="baise mgt8 yinying"></div>
+                    <div style="height: 160px" class="baise mgt8 yinying"></div>
+                    <div style="height: 160px" class="baise mgt8 yinying"></div>
+                </div>
+            </div>
+            <!--右区-->
+            <div style="flex: 1" class="flex column mgr8 mgt8 yinying">
+                <!--提示区-->
+                <div style="height: 350px" class="baise"><h3>广告出租位↓</h3><img src="https://ts1.cn.mm.bing.net/th?id=OIP-C.RMqD5qLN0m-BzJ6zFi-o-AHaHt&w=245&h=255&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" alt="广告出租位">
+                </div>
+                <!--消息区-->
+                <div style="height: 300px;background: green;" class="baise mgt8 yinying tu">
+                    <img width="150px;" style="padding:70px;" src="https://tse4-mm.cn.bing.net/th/id/OIP-C.oU96pMPTFnPN1YyAZD_URwAAAA?w=174&h=184&c=7&r=0&o=5&pid=1.7">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
